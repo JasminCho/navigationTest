@@ -1,0 +1,35 @@
+{
+  "name": "navigationTest",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-native-scripts": "1.13.1",
+    "jest-expo": "26.0.0",
+    "react-test-renderer": "16.3.0-alpha.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "^27.0.1",
+    "react": "16.3.0-alpha.1",
+    "react-native": "0.54.0",
+    "react-native-code-input": "^1.0.6",
+    "react-native-confirmation-code-input": "^1.0.4",
+    "react-native-elements": "^0.19.1",
+    "react-native-icon-badge": "^1.1.3",
+    "react-native-text": "0.0.7",
+    "react-native-vector-icons": "^4.6.0",
+    "react-native-viewport-units": "0.0.5",
+    "react-navigation": "^2.0.1",
+    "util": "*"
+  }
+}
